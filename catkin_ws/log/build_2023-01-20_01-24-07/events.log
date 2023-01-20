@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000080] (multi_pub) JobQueued: {'identifier': 'multi_pub', 'dependencies': OrderedDict()}
+[0.000102] (multi_pub) JobStarted: {'identifier': 'multi_pub'}
+[0.009514] (multi_pub) JobProgress: {'identifier': 'multi_pub', 'progress': 'cmake'}
+[0.009808] (multi_pub) Command: {'cmd': ['/usr/bin/cmake', '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub', '-DCMAKE_INSTALL_PREFIX=/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub'], 'cwd': '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'eight'), ('SSH_AGENT_PID', '321392'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:Downloads/cuda/lib64:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/eight'), ('OLDPWD', '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub'), ('LESS', '-R'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/eight/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '321170'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '306137'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install'), ('LOGNAME', 'eight'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:56524'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'eight'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/eight/anaconda3/bin:/home/eight/anaconda3/condabin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/eight-ThinkPad-X1-Extreme-2nd:@/tmp/.ICE-unix/321427,unix/eight-ThinkPad-X1-Extreme-2nd:/tmp/.ICE-unix/321427'), ('INVOCATION_ID', '01c8243efd6e40a3a6df1e48dfeb2d03'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/eight/anaconda3/bin/python'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('TERMINATOR_UUID', 'urn:uuid:24481247-7d8d-4d87-9c22-e98a974e1ff5'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub'), ('CUDA_HOME', '/usr/local/cuda'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/eight/anaconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/eight/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.022767] (multi_pub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.046148] (multi_pub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/eight/anaconda3/bin/python3\n'}
+[0.099474] (-) TimerEvent: {}
+[0.199768] (-) TimerEvent: {}
+[0.220352] (multi_pub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.225885] (multi_pub) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.242852] (multi_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.245761] (multi_pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299878] (-) TimerEvent: {}
+[0.337482] (multi_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.371474] (multi_pub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.399186] (multi_pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.399974] (-) TimerEvent: {}
+[0.400294] (multi_pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500095] (-) TimerEvent: {}
+[0.505955] (multi_pub) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.533373] (multi_pub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.600277] (-) TimerEvent: {}
+[0.628121] (multi_pub) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.628752] (multi_pub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.628972] (multi_pub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.629030] (multi_pub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.629594] (multi_pub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.629666] (multi_pub) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.630056] (multi_pub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.630720] (multi_pub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.630885] (multi_pub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.631098] (multi_pub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.633290] (multi_pub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.634358] (multi_pub) StderrLine: {'line': b'CMake Error at CMakeLists.txt:35 (add_executable):\n'}
+[0.634654] (multi_pub) StderrLine: {'line': b'  Cannot find source file:\n'}
+[0.634734] (multi_pub) StderrLine: {'line': b'\n'}
+[0.634782] (multi_pub) StderrLine: {'line': b'    src/multi_pub.cpp\n'}
+[0.634828] (multi_pub) StderrLine: {'line': b'\n'}
+[0.634913] (multi_pub) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[0.634985] (multi_pub) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[0.635027] (multi_pub) StderrLine: {'line': b'\n'}
+[0.635070] (multi_pub) StderrLine: {'line': b'\n'}
+[0.635113] (multi_pub) StderrLine: {'line': b'CMake Error at CMakeLists.txt:35 (add_executable):\n'}
+[0.635155] (multi_pub) StderrLine: {'line': b'  No SOURCES given to target: multi_pub\n'}
+[0.635198] (multi_pub) StderrLine: {'line': b'\n'}
+[0.635239] (multi_pub) StderrLine: {'line': b'\n'}
+[0.635282] (multi_pub) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[0.639078] (multi_pub) CommandEnded: {'returncode': 1}
+[0.658288] (multi_pub) JobEnded: {'identifier': 'multi_pub', 'rc': 1}
+[0.668802] (-) EventReactorShutdown: {}

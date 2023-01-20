@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target multi_pub[0m
+[ 50%] Built target my_subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/multi_pub.dir/src/multi_pub.cpp.o[0m
+In file included from [01m[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:9[m[K:
+[01m[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/classB.cpp:12:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KClassB::ClassB(rclcpp::Node::SharedPtr)[m[K’
+   12 | [01;31m[KClassB[m[K::ClassB(rclcpp::Node::SharedPtr node) : node_(node) {
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/classB.cpp:1:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KClassB::ClassB(ClassB&&)[m[K’
+    1 | class [01;36m[KClassB[m[K {
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/classB.cpp:1:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KClassB::ClassB(const ClassB&)[m[K’
+[01m[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/classB.cpp:3:5:[m[K [01;36m[Knote: [m[K                ‘[01m[KClassB::ClassB(rclcpp::Node::SharedPtr, std::string)[m[K’
+    3 |     [01;36m[KClassB[m[K(rclcpp::Node::SharedPtr node, std::string); // constructor
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/classB.cpp:1:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ClassB[m[K’ defined here
+    1 | class [01;36m[KClassB[m[K {
+      |       [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/multi_pub.dir/build.make:63: CMakeFiles/multi_pub.dir/src/multi_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/multi_pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

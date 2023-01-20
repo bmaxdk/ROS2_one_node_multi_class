@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub/multi_pub" "/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub/my_subscriber" "TARGETS" "multi_pub" "my_subscriber" "DESTINATION" "lib/multi_pub")

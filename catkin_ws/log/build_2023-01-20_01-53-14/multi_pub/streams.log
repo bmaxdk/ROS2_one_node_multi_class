@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub -- -j16 -l16
+[0.042s] [35m[1mScanning dependencies of target multi_pub[0m
+[0.056s] [ 50%] Built target my_subscriber
+[0.059s] [ 75%] [32mBuilding CXX object CMakeFiles/multi_pub.dir/src/multi_pub.cpp.o[0m
+[2.444s] [100%] [32m[1mLinking CXX executable multi_pub[0m
+[2.553s] [100%] Built target multi_pub
+[2.565s] Invoked command in '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub -- -j16 -l16
+[2.591s] Invoking command in '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub
+[2.597s] -- Install configuration: ""
+[2.597s] -- Execute custom install script
+[2.598s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/lib/multi_pub/multi_pub
+[2.598s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/lib/multi_pub/my_subscriber
+[2.598s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/ament_index/resource_index/package_run_dependencies/multi_pub
+[2.598s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/ament_index/resource_index/parent_prefix_path/multi_pub
+[2.599s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/environment/ament_prefix_path.sh
+[2.599s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/environment/ament_prefix_path.dsv
+[2.599s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/environment/path.sh
+[2.599s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/environment/path.dsv
+[2.599s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/local_setup.bash
+[2.600s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/local_setup.sh
+[2.600s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/local_setup.zsh
+[2.600s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/local_setup.dsv
+[2.600s] -- Symlinking: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/package.dsv
+[2.607s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/ament_index/resource_index/packages/multi_pub
+[2.607s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/cmake/multi_pubConfig.cmake
+[2.607s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/cmake/multi_pubConfig-version.cmake
+[2.608s] -- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/package.xml
+[2.610s] Invoked command in '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub

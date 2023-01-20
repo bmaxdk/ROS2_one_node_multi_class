@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target multi_pub[0m
+[ 50%] Built target my_subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/multi_pub.dir/src/multi_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable multi_pub[0m
+[100%] Built target multi_pub
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/lib/multi_pub/multi_pub
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/lib/multi_pub/my_subscriber
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/ament_index/resource_index/package_run_dependencies/multi_pub
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/ament_index/resource_index/parent_prefix_path/multi_pub
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/environment/path.sh
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/environment/path.dsv
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/local_setup.bash
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/local_setup.sh
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/local_setup.zsh
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/local_setup.dsv
+-- Symlinking: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/package.dsv
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/ament_index/resource_index/packages/multi_pub
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/cmake/multi_pubConfig.cmake
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/cmake/multi_pubConfig-version.cmake
+-- Up-to-date symlink: /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub/share/multi_pub/package.xml

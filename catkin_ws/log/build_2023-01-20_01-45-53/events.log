@@ -1,0 +1,370 @@
+[0.000000] (-) TimerEvent: {}
+[0.000257] (multi_pub) JobQueued: {'identifier': 'multi_pub', 'dependencies': OrderedDict()}
+[0.000323] (multi_pub) JobStarted: {'identifier': 'multi_pub'}
+[0.008706] (multi_pub) JobProgress: {'identifier': 'multi_pub', 'progress': 'cmake'}
+[0.009901] (multi_pub) JobProgress: {'identifier': 'multi_pub', 'progress': 'build'}
+[0.009954] (multi_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub', '--', '-j16', '-l16'], 'cwd': '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'eight'), ('SSH_AGENT_PID', '321392'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:Downloads/cuda/lib64:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/eight'), ('OLDPWD', '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws'), ('LESS', '-R'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/eight/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '321170'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '306137'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install'), ('LOGNAME', 'eight'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:56524'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'eight'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/eight/anaconda3/bin:/home/eight/anaconda3/condabin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/eight-ThinkPad-X1-Extreme-2nd:@/tmp/.ICE-unix/321427,unix/eight-ThinkPad-X1-Extreme-2nd:/tmp/.ICE-unix/321427'), ('INVOCATION_ID', '01c8243efd6e40a3a6df1e48dfeb2d03'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/eight/anaconda3/bin/python'), ('AMENT_PREFIX_PATH', '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub:/opt/ros/foxy'), ('TERMINATOR_UUID', 'urn:uuid:3ac7b96a-f158-4312-a027-45aa7b6ce627'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub'), ('CUDA_HOME', '/usr/local/cuda'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/eight/anaconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/eight/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub:/opt/ros/foxy')]), 'shell': False}
+[0.041855] (multi_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target multi_pub\x1b[0m\n'}
+[0.042005] (multi_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_subscriber\x1b[0m\n'}
+[0.059660] (multi_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/multi_pub.dir/src/multi_pub.cpp.o\x1b[0m\n'}
+[0.059797] (multi_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_subscriber.dir/src/my_subscriber_node.cpp.o\x1b[0m\n'}
+[0.098595] (-) TimerEvent: {}
+[0.198877] (-) TimerEvent: {}
+[0.299275] (-) TimerEvent: {}
+[0.399533] (-) TimerEvent: {}
+[0.499837] (-) TimerEvent: {}
+[0.600216] (-) TimerEvent: {}
+[0.700513] (-) TimerEvent: {}
+[0.800774] (-) TimerEvent: {}
+[0.901038] (-) TimerEvent: {}
+[1.001297] (-) TimerEvent: {}
+[1.006456] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:9\x1b[m\x1b[K:\n'}
+[1.006701] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/classB.cpp:12:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[KClassB::ClassB(rclcpp::Node::SharedPtr, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006800] (multi_pub) StderrLine: {'line': b'   12 | \x1b[01;31m\x1b[KClassB\x1b[m\x1b[K::ClassB(rclcpp::Node::SharedPtr node, std::string name) : node_(node) {\n'}
+[1.006895] (multi_pub) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.006973] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/classB.cpp:1:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[KClassB::ClassB(ClassB&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007064] (multi_pub) StderrLine: {'line': b'    1 | class \x1b[01;36m\x1b[KClassB\x1b[m\x1b[K {\n'}
+[1.007151] (multi_pub) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.007237] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/classB.cpp:1:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KClassB::ClassB(const ClassB&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007329] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/classB.cpp:3:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KClassB::ClassB(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007426] (multi_pub) StderrLine: {'line': b'    3 |     \x1b[01;36m\x1b[KClassB\x1b[m\x1b[K(rclcpp::Node::SharedPtr node); // constructor\n'}
+[1.007522] (multi_pub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.007611] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/classB.cpp:1:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ClassB\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.007701] (multi_pub) StderrLine: {'line': b'    1 | class \x1b[01;36m\x1b[KClassB\x1b[m\x1b[K {\n'}
+[1.007789] (multi_pub) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.030463] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.030821] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ClassB>::shared_ptr(const char [3])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.031488] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.031590] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.031683] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.031775] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.031868] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:367:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Tp>&, std::nothrow_t) [with _Tp = ClassB]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.031962] (multi_pub) StderrLine: {'line': b'  367 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Tp>& __r, std::nothrow_t)\n'}
+[1.032085] (multi_pub) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.032506] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:367:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.032812] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:358:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Alloc, class ... _Args> std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.032915] (multi_pub) StderrLine: {'line': b'  358 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)\n'}
+[1.033025] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.033148] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:358:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.033248] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_alloc_shared_tag<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.033384] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.033549] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.033704] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.033797] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.033927] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:307:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t) [with _Tp = ClassB; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.034022] (multi_pub) StderrLine: {'line': b'  307 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t) noexcept : shared_ptr() { }\n'}
+[1.034129] (multi_pub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.034216] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:307:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.034292] (multi_pub) StderrLine: {'line': b'  307 |       constexpr shared_ptr(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept : shared_ptr() { }\n'}
+[1.034374] (multi_pub) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.034460] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:299:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del, std::shared_ptr<ClassB>::_Constructible<std::unique_ptr<_Tp, _Dp>, std::__sp_array_delete>* <anonymous> > std::shared_ptr<_Tp>::shared_ptr(std::unique_ptr<_Up, _Ep>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.034551] (multi_pub) StderrLine: {'line': b'  299 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Yp, _Del>&& __r)\n'}
+[1.034637] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.034725] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:299:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.034815] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.034906] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.034994] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.035078] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.035159] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.035281] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:290:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del, class> std::shared_ptr<_Tp>::shared_ptr(std::unique_ptr<_Up, _Ep>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.035369] (multi_pub) StderrLine: {'line': b'  290 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Yp, _Del>&& __r)\n'}
+[1.035489] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.035576] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:290:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.035664] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.035760] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.035849] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.035938] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.036026] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.036117] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:282:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::auto_ptr<_Up>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.036209] (multi_pub) StderrLine: {'line': b'  282 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(auto_ptr<_Yp>&& __r);\n'}
+[1.036296] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.036382] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:282:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.036515] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.036611] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.036700] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.036792] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.036881] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.036972] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:275:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Yp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.037092] (multi_pub) StderrLine: {'line': b'  275 |  explicit \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Yp>& __r)\n'}
+[1.037230] (multi_pub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.037319] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:275:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.037415] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::weak_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.037555] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.037714] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.037805] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.037892] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.037983] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:263:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Yp>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.038073] (multi_pub) StderrLine: {'line': b'  263 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr<_Yp>&& __r) noexcept\n'}
+[1.038149] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.038218] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:263:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.038289] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.038369] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.038471] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.038568] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.038652] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.038740] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:254:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Tp>&&) [with _Tp = ClassB]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.038828] (multi_pub) StderrLine: {'line': b'  254 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr&& __r) noexcept\n'}
+[1.038971] (multi_pub) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.039066] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:254:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ClassB>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.039153] (multi_pub) StderrLine: {'line': b'  254 |       shared_ptr(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[1.039236] (multi_pub) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.039322] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:246:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.039410] (multi_pub) StderrLine: {'line': b'  246 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r) noexcept\n'}
+[1.039499] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.039586] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:246:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.039675] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.039772] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.039863] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.039957] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.040046] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.040137] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:234:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&, std::shared_ptr<_Tp>::element_type*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.040227] (multi_pub) StderrLine: {'line': b'  234 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r, element_type* __p) noexcept\n'}
+[1.040316] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.040404] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:234:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.040497] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.040663] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.040842] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.041057] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.041191] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.041292] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:212:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter, class _Alloc> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter, _Alloc)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.041427] (multi_pub) StderrLine: {'line': b'  212 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d, _Alloc __a)\n'}
+[1.041567] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.041682] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:212:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.041775] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[1.041866] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.042014] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.042156] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.042250] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.042396] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:193:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class _Alloc, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter, _Alloc)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.042538] (multi_pub) StderrLine: {'line': b'  193 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d, _Alloc __a)\n'}
+[1.042677] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.042769] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:193:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.042861] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[1.042954] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.043045] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.043137] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.043228] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.043321] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:173:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.043415] (multi_pub) StderrLine: {'line': b'  173 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d)\n'}
+[1.043507] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.043599] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:173:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.043694] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.043787] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.043879] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.043970] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.044063] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.044156] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:156:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.044249] (multi_pub) StderrLine: {'line': b'  156 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d)\n'}
+[1.044341] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.044431] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:156:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.044522] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:87:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.044614] (multi_pub) StderrLine: {'line': b'   87 |       std::shared_ptr<ClassB> class_b("n1"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.044706] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.044795] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.044891] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.044982] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:139:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.045080] (multi_pub) StderrLine: {'line': b'  139 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p) : __shared_ptr<_Tp>(__p) { }\n'}
+[1.045173] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.045264] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:139:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.045381] (multi_pub) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class ... _Args> using _Constructible = typename std::enable_if<std::is_constructible<std::__shared_ptr<_Tp>, _Args ...>::value>::type [with _Args = {const char*}; _Tp = ClassB]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.045504] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:137:30:\x1b[m\x1b[K   required from here\n'}
+[1.045598] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:106:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.045760] (multi_pub) StderrLine: {'line': b'  106 |  using \x1b[01;31m\x1b[K_Constructible\x1b[m\x1b[K = typename enable_if<\n'}
+[1.045852] (multi_pub) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.045944] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:129:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = ClassB]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.046038] (multi_pub) StderrLine: {'line': b'  129 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr&) noexcept = default;\n'}
+[1.046129] (multi_pub) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.046216] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:129:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<ClassB>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.046309] (multi_pub) StderrLine: {'line': b'  129 |       shared_ptr(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[1.046401] (multi_pub) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.046491] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:127:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr() [with _Tp = ClassB]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.046581] (multi_pub) StderrLine: {'line': b'  127 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K() noexcept : __shared_ptr<_Tp>() { }\n'}
+[1.046673] (multi_pub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.046759] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:127:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[1.046850] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ClassB>::shared_ptr(const char [3])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.046949] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.047039] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.047129] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.047218] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.047309] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:367:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Tp>&, std::nothrow_t) [with _Tp = ClassB]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.047402] (multi_pub) StderrLine: {'line': b'  367 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Tp>& __r, std::nothrow_t)\n'}
+[1.047494] (multi_pub) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.047586] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:367:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.047676] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:358:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Alloc, class ... _Args> std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.047769] (multi_pub) StderrLine: {'line': b'  358 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)\n'}
+[1.047860] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.047951] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:358:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.048044] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_alloc_shared_tag<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.048136] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.048226] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.048315] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.048413] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.048506] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:307:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t) [with _Tp = ClassB; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.048603] (multi_pub) StderrLine: {'line': b'  307 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t) noexcept : shared_ptr() { }\n'}
+[1.048695] (multi_pub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.048786] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:307:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.048884] (multi_pub) StderrLine: {'line': b'  307 |       constexpr shared_ptr(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept : shared_ptr() { }\n'}
+[1.048978] (multi_pub) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.049070] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:299:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del, std::shared_ptr<ClassB>::_Constructible<std::unique_ptr<_Tp, _Dp>, std::__sp_array_delete>* <anonymous> > std::shared_ptr<_Tp>::shared_ptr(std::unique_ptr<_Up, _Ep>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.049166] (multi_pub) StderrLine: {'line': b'  299 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Yp, _Del>&& __r)\n'}
+[1.049256] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.049347] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:299:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.049438] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.049578] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.049683] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.049863] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.050080] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.050171] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:290:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del, class> std::shared_ptr<_Tp>::shared_ptr(std::unique_ptr<_Up, _Ep>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.050270] (multi_pub) StderrLine: {'line': b'  290 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Yp, _Del>&& __r)\n'}
+[1.050362] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.050451] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:290:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.050542] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.050635] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.050729] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.050821] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.050910] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.050999] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:282:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::auto_ptr<_Up>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.051095] (multi_pub) StderrLine: {'line': b'  282 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(auto_ptr<_Yp>&& __r);\n'}
+[1.051184] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.051276] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:282:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.051368] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.051460] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.051550] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.051637] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.051725] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.051815] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:275:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Yp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.051913] (multi_pub) StderrLine: {'line': b'  275 |  explicit \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Yp>& __r)\n'}
+[1.052005] (multi_pub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.052092] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:275:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.052186] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::weak_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.052274] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.052362] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.052453] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.052538] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.052627] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:263:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Yp>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.052763] (multi_pub) StderrLine: {'line': b'  263 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr<_Yp>&& __r) noexcept\n'}
+[1.052866] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.052954] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:263:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.053043] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.053141] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.053230] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.053376] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.053507] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.053600] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:254:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Tp>&&) [with _Tp = ClassB]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.053758] (multi_pub) StderrLine: {'line': b'  254 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr&& __r) noexcept\n'}
+[1.053848] (multi_pub) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.053935] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:254:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ClassB>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.054028] (multi_pub) StderrLine: {'line': b'  254 |       shared_ptr(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[1.054119] (multi_pub) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.054206] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:246:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.054293] (multi_pub) StderrLine: {'line': b'  246 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r) noexcept\n'}
+[1.054383] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.054509] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:246:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.054627] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.054719] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.054807] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.054898] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.054988] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.055079] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:234:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&, std::shared_ptr<_Tp>::element_type*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.055167] (multi_pub) StderrLine: {'line': b'  234 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r, element_type* __p) noexcept\n'}
+[1.055255] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.055350] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:234:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.055440] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.055537] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.055626] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.055716] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.055802] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.055889] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:212:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter, class _Alloc> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter, _Alloc)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.055981] (multi_pub) StderrLine: {'line': b'  212 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d, _Alloc __a)\n'}
+[1.056072] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.056162] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:212:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.056253] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[1.056343] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.056430] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.056510] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.056588] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.056677] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:193:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class _Alloc, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter, _Alloc)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.056756] (multi_pub) StderrLine: {'line': b'  193 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d, _Alloc __a)\n'}
+[1.056840] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.056926] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:193:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.057015] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[1.057106] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.057195] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.057282] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.057377] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.057466] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:173:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.057578] (multi_pub) StderrLine: {'line': b'  173 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d)\n'}
+[1.057777] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.057916] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:173:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.058007] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.058096] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.058183] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.058272] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.058360] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.058451] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:156:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.058542] (multi_pub) StderrLine: {'line': b'  156 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d)\n'}
+[1.058631] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.058719] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:156:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.058809] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:102:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.058894] (multi_pub) StderrLine: {'line': b'  102 |       std::shared_ptr<ClassB> class_c("n2"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.058982] (multi_pub) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.059077] (multi_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.059165] (multi_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:4\x1b[m\x1b[K:\n'}
+[1.059254] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:139:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.059349] (multi_pub) StderrLine: {'line': b'  139 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p) : __shared_ptr<_Tp>(__p) { }\n'}
+[1.059438] (multi_pub) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.059525] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:139:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.059616] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:129:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = ClassB]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.059704] (multi_pub) StderrLine: {'line': b'  129 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr&) noexcept = default;\n'}
+[1.059793] (multi_pub) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.059881] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:129:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [3]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<ClassB>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.059974] (multi_pub) StderrLine: {'line': b'  129 |       shared_ptr(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[1.060063] (multi_pub) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.060150] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:127:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr() [with _Tp = ClassB]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.060239] (multi_pub) StderrLine: {'line': b'  127 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K() noexcept : __shared_ptr<_Tp>() { }\n'}
+[1.060327] (multi_pub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.060414] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:127:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[1.060504] (multi_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub/src/multi_pub.cpp:106:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.060594] (multi_pub) StderrLine: {'line': b'  106 |       pub_map[3]->publish(message)\n'}
+[1.060680] (multi_pub) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.060767] (multi_pub) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.060855] (multi_pub) StderrLine: {'line': b'  107 | \n'}
+[1.060944] (multi_pub) StderrLine: {'line': b'  108 |     \x1b[32m\x1b[K}\x1b[m\x1b[K\n'}
+[1.061034] (multi_pub) StderrLine: {'line': b'      |     \x1b[32m\x1b[K~\x1b[m\x1b[K                              \n'}
+[1.101396] (-) TimerEvent: {}
+[1.201726] (-) TimerEvent: {}
+[1.301989] (-) TimerEvent: {}
+[1.402249] (-) TimerEvent: {}
+[1.502526] (-) TimerEvent: {}
+[1.602776] (-) TimerEvent: {}
+[1.703172] (-) TimerEvent: {}
+[1.764991] (multi_pub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/multi_pub.dir/build.make:63: CMakeFiles/multi_pub.dir/src/multi_pub.cpp.o] Error 1\n'}
+[1.765203] (multi_pub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/multi_pub.dir/all] Error 2\n'}
+[1.765276] (multi_pub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.803319] (-) TimerEvent: {}
+[1.903603] (-) TimerEvent: {}
+[2.003910] (-) TimerEvent: {}
+[2.104165] (-) TimerEvent: {}
+[2.204423] (-) TimerEvent: {}
+[2.304666] (-) TimerEvent: {}
+[2.404901] (-) TimerEvent: {}
+[2.505140] (-) TimerEvent: {}
+[2.605375] (-) TimerEvent: {}
+[2.705684] (-) TimerEvent: {}
+[2.805936] (-) TimerEvent: {}
+[2.906173] (-) TimerEvent: {}
+[3.006410] (-) TimerEvent: {}
+[3.106646] (-) TimerEvent: {}
+[3.206902] (-) TimerEvent: {}
+[3.307179] (-) TimerEvent: {}
+[3.407453] (-) TimerEvent: {}
+[3.507753] (-) TimerEvent: {}
+[3.608008] (-) TimerEvent: {}
+[3.638838] (multi_pub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable my_subscriber\x1b[0m\n'}
+[3.708119] (-) TimerEvent: {}
+[3.787316] (multi_pub) StdoutLine: {'line': b'[ 75%] Built target my_subscriber\n'}
+[3.788014] (multi_pub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.789395] (multi_pub) CommandEnded: {'returncode': 2}
+[3.808623] (-) TimerEvent: {}
+[3.820149] (multi_pub) JobEnded: {'identifier': 'multi_pub', 'rc': 2}
+[3.830651] (-) EventReactorShutdown: {}

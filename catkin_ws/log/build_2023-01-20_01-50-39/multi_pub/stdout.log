@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target multi_pub[0m
+[ 50%] Built target my_subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/multi_pub.dir/src/multi_pub.cpp.o[0m

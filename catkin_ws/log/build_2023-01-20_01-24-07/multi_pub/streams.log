@@ -1,0 +1,39 @@
+[0.012s] Invoking command in '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub -DCMAKE_INSTALL_PREFIX=/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub
+[0.023s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.046s] -- Using PYTHON_EXECUTABLE: /home/eight/anaconda3/bin/python3
+[0.220s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.226s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.246s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.371s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.399s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.400s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.506s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.533s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.628s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.629s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.629s] -- Configured cppcheck include dirs: 
+[0.629s] -- Configured cppcheck exclude dirs and/or files: 
+[0.630s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.630s] -- Configured cpplint exclude dirs and/or files: 
+[0.630s] -- Added test 'lint_cmake' to check CMake code style
+[0.631s] -- Added test 'uncrustify' to check C / C++ code style
+[0.631s] -- Configured uncrustify additional arguments: 
+[0.631s] -- Added test 'xmllint' to check XML markup files
+[0.633s] -- Configuring done
+[0.634s] CMake Error at CMakeLists.txt:35 (add_executable):
+[0.635s]   Cannot find source file:
+[0.635s] 
+[0.635s]     src/multi_pub.cpp
+[0.635s] 
+[0.635s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.635s]   .hpp .hxx .in .txx
+[0.635s] 
+[0.635s] 
+[0.635s] CMake Error at CMakeLists.txt:35 (add_executable):
+[0.635s]   No SOURCES given to target: multi_pub
+[0.635s] 
+[0.635s] 
+[0.635s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.640s] Invoked command in '/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/build/multi_pub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/eight/Downloads/Howard_ROS2_practice/catkin_ws/src/multi_pub -DCMAKE_INSTALL_PREFIX=/home/eight/Downloads/Howard_ROS2_practice/catkin_ws/install/multi_pub
